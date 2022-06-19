@@ -8,7 +8,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    const api = `${process.env.REACT_APP_WEATHER_API_ROOTURL}?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=Melbourne&days=3&aqi=no&alerts=no`
+    const api = `${process.env.WEATHER_API_ROOTURL}?key=${process.env.WEATHER_API_KEY}&q=Melbourne&days=3&aqi=no&alerts=no`
 
     axios.get(api)
     .then((response) => {
