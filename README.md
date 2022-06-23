@@ -9,4 +9,5 @@ Weather App is a react web appication which hosted on Heroku. This app provides 
 - Build the backend with express.
 - Use Axios library to fatch data.
 
-This is the backend of the Weather App. You can access the data of the current weather and the 3 days forecasts of Melbourne by hitting this url.
+## About API: 
+This is the backend of the Weather App. You can access the data of the current weather and the 3 days forecasts of Melbourne by hitting this API.
